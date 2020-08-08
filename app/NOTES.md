@@ -8,6 +8,9 @@ running. It can be whitelisted by ip in `config/environments/development.rb`
 config.​web_console​.​whitelisted_ips​ = ​%w( 0.0.0.0/0 ::/0 )​
 ```
 
+* Undo and reapply last migration
+```bin/rails db:migrate:redo```
+
 ### Ruby
 
 Important things done differently as to what I'm use to
