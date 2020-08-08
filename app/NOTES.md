@@ -20,6 +20,10 @@ Important things done differently as to what I'm use to
 * Instance variables begin with an at (@)
 * Words in method and variable names are separated with snake_case instead of camelCase
 
+#### Strings
+
+`%{}` can replace double quotes (like """ in other languages)
+
 ##### Symbols
 
 Used as keys for method parameters or looking things up in hashes. Similar to named parameters 
