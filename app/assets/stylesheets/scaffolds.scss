@@ -1,6 +1,12 @@
+$background-color: #121212;
+$error-background-color: red;
+$error-color: red;
+$color: whitesmoke;
+$visited-color: #666;
+
 body {
-  background-color: #fff;
-  color: #333;
+  background-color: $background-color;
+  color: $color;
   margin: 33px; }
 
 body, p, ol, ul, td {
@@ -9,19 +15,19 @@ body, p, ol, ul, td {
   line-height: 18px; }
 
 pre {
-  background-color: #eee;
+  background-color: $background-color;
   padding: 10px;
   font-size: 11px; }
 
 a {
-  color: #000; }
+  color: $color; }
 
 a:visited {
-  color: #666; }
+  color: $visited-color; }
 
 a:hover {
-  color: #fff;
-  background-color: #000; }
+  color: $background-color;
+  background-color: $background-color; }
 
 th {
   padding-bottom: 5px; }
@@ -38,15 +44,15 @@ div.actions {
 
 .field_with_errors {
   padding: 2px;
-  background-color: red;
+  background-color: $error-background-color;
   display: table; }
 
 #error_explanation {
   width: 450px;
-  border: 2px solid red;
+  border: 2px solid $error-color;
   padding: 7px 7px 0;
   margin-bottom: 20px;
-  background-color: #f0f0f0; }
+  background-color: $background-color; }
 
 #error_explanation h2 {
   text-align: left;
@@ -54,8 +60,8 @@ div.actions {
   padding: 5px 5px 5px 15px;
   font-size: 12px;
   margin: -7px -7px 0;
-  background-color: #c00;
-  color: #fff; }
+  background-color: $error-background-color;
+  color: $background-color; }
 
 #error_explanation ul li {
   font-size: 12px;
