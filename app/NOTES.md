@@ -11,6 +11,8 @@ config.​web_console​.​whitelisted_ips​ = ​%w( 0.0.0.0/0 ::/0 )​
 * Undo and reapply last migration
 ```bin/rails db:migrate:redo```
 
+* Toggle caching in dev environment `bin/rails dev:cache`
+
 ### Ruby
 
 Important things done differently as to what I'm use to
@@ -134,7 +136,15 @@ Turns a block into a lambda
 * http://www.zenspider.com/Languages/Ruby/QuickRef.html
 
 ## Bibliography
+### Books
 
 Recommended book to learn Ruby: (The PickAxe book) Programming Ruby “Dave Thomas,
  with Chad Fowler and Andy Hunt. Programming Ruby 1.9 & 2.0 (4th edition). The 
 Pragmatic Bookshelf, Raleigh, NC, 4th, 2013.”
+
+### Articles/blogs
+
+* Rusian doll caching https://signalvnoise.com/posts/3113-how-key-based-cache-expiration-works
+* Turbolinks https://github.com/turbolinks/turbolinks-classic
+* dom testing https://github.com/rails/rails-dom-testing
+* caching https://guides.rubyonrails.org/caching_with_rails.html
