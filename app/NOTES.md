@@ -13,6 +13,8 @@ config.​web_console​.​whitelisted_ips​ = ​%w( 0.0.0.0/0 ::/0 )​
 
 * Toggle caching in dev environment `bin/rails dev:cache`
 
+* Complex scaffold `bin/rails generate scaffold LineItem product:references cart:belongs_to`
+
 ### Ruby
 
 Important things done differently as to what I'm use to
