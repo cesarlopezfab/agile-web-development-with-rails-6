@@ -15,6 +15,12 @@ config.​web_console​.​whitelisted_ips​ = ​%w( 0.0.0.0/0 ::/0 )​
 
 * Complex scaffold `bin/rails generate scaffold LineItem product:references cart:belongs_to`
 
+#### Good practices
+
+* Review the logs periodically, including logs/test.log
+
+* Usage of `product_path` vs `product_url`. The latest is only needed for redirects or domain changes
+
 ### Ruby
 
 Important things done differently as to what I'm use to
