@@ -1,4 +1,6 @@
 class StoreController < ApplicationController
+  include CurrentCart
+  before_action :set_cart
   before_action :increment_visits_without_adding_to_cart, only: [:index]
 
   def index
