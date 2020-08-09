@@ -146,7 +146,8 @@ Pragmatic Bookshelf, Raleigh, NC, 4th, 2013.”
 
 ### Articles/blogs
 
-* Rusian doll caching https://signalvnoise.com/posts/3113-how-key-based-cache-expiration-works
-* Turbolinks https://github.com/turbolinks/turbolinks-classic
-* dom testing https://github.com/rails/rails-dom-testing
-* caching https://guides.rubyonrails.org/caching_with_rails.html
+* [Rusian doll caching](https://signalvnoise.com/posts/3113-how-key-based-cache-expiration-works)
+* [Turbolinks](https://github.com/turbolinks/turbolinks-classic)
+* [dom testing](https://github.com/rails/rails-dom-testing)
+* [caching offical doc](https://guides.rubyonrails.org/caching_with_rails.html)
+* [chubby models on a diet (more on concerns)](https://signalvnoise.com/posts/3372-put-chubby-models-on-a-diet-with-concerns)
