@@ -50,6 +50,8 @@
       padding-bottom: 1em;
       background: #141;
       text-align: center;  // mobile has centered nav
+      display: grid;
+      grid-template-rows: 90% 10%;
       @media (min-width: 30em) {
         text-align: left; // desktop nav is left-aligned
         padding: 1em;     // and needs more padding
@@ -75,6 +77,9 @@
             color: white;
           }
         }
+      }
+      footer {
+        color: #bfb;
       }
     }
     main {

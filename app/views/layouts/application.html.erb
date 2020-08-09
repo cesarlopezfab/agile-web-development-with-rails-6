@@ -22,6 +22,11 @@
           <li><a href="/news">News</a></li>
           <li><a href="/contact">Contact</a></li>
         </ul>
+        <footer>
+          <span>
+            Page last refresh <%= Time.now %>
+          </span>
+        </footer>
       </nav>
       <main class='<%= controller.controller_name %>'>
         <%= yield %>
