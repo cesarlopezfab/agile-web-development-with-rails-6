@@ -11,6 +11,7 @@ class CartsController < ApplicationController
   # GET /carts/1
   # GET /carts/1.json
   def show
+    invalid_cart if @cart.id != session[:cart_id]
   end
 
   # GET /carts/new
@@ -74,4 +75,8 @@ class CartsController < ApplicationController
       params.fetch(:cart, {})
     end
 
+    def invalid_cart
+      logger.error "Attempt to access invalid cart #{params[:id]}"
+      redirect_to store_index_url, notice: 'Invalid cart'
+    end
 end
