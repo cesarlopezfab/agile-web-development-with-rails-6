@@ -3,9 +3,6 @@
 <% end %>
 
 <h1>Your Pragmatic Catalog</h1>
-<% if session[:store_visits_without_adding_to_cart] > 5 %>
-    <h2>You visited this page <%= pluralize(session[:store_visits_without_adding_to_cart], 'time') %></h2>
-<% end %>
 
 <ul class="catalog">
     <% cache @products do %>

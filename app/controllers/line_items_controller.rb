@@ -26,7 +26,6 @@ class LineItemsController < ApplicationController
   # POST /line_items
   # POST /line_items.json
   def create
-    reset_visits_to_store
     product = Product.find(params[:product_id])
     @line_item = @cart.add_product(product)
 
@@ -76,9 +75,5 @@ class LineItemsController < ApplicationController
     # Only allow a list of trusted parameters through.
     def line_item_params
       params.require(:line_item).permit(:product_id)
-    end
-
-    def reset_visits_to_store
-      session[:store_visits_without_adding_to_cart] = 0
     end
 end
