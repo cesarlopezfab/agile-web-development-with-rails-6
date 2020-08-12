@@ -159,3 +159,4 @@ Pragmatic Bookshelf, Raleigh, NC, 4th, 2013.”
 * [chubby models on a diet (more on concerns)](https://signalvnoise.com/posts/3372-put-chubby-models-on-a-diet-with-concerns)
 * [The yellow fade](https://signalvnoise.com/archives/000558.php)
 * [CSS animations MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
+* [Payments on the web](http://media.pragprog.com/titles/nrwebpay/money.pdf)
