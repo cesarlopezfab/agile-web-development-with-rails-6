@@ -7,21 +7,21 @@ class OrdersTest < ApplicationSystemTestCase
 
   test "visiting the index" do
     visit orders_url
-    assert_selector "h1", text: "Orders"
+    assert_selector "h1", text: "Please Enter Your Details"
   end
 
   test "creating a Order" do
     visit orders_url
-    click_on "New Order"
 
     fill_in "Address", with: @order.address
     fill_in "Email", with: @order.email
     fill_in "Name", with: @order.name
-    fill_in "Pay type", with: @order.pay_type
-    click_on "Create Order"
+    fill_in "Pay type", with: "Check"
+    fill_in "Routing #", with: 1234
+    fill_in "Account #", with: 1234
+    click_on "Place Order"
 
-    assert_text "Order was successfully created"
-    click_on "Back"
+    assert_text "Thank you for your order."
   end
 
   test "updating a Order" do
