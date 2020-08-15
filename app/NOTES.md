@@ -165,3 +165,7 @@ Pragmatic Bookshelf, Raleigh, NC, 4th, 2013.”
 * [The yellow fade](https://signalvnoise.com/archives/000558.php)
 * [CSS animations MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
 * [Payments on the web](http://media.pragprog.com/titles/nrwebpay/money.pdf)
+
+
+
+I stopped reading & writting code around page 470, as too many test start to fail and I don't feel I have time to fix them
